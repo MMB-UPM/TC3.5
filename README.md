@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [Abstract](#abstract)
-2. [Repository Overview](#repository-overview)
+2. [Citation](#citation)
 3. [System Architecture](#system-architecture)
 4. [Installation](#installation)
 5. [Usage](#usage)
@@ -19,8 +19,7 @@
 12. [Environment Variables](#environment-variables)
 13. [File Structure](#file-structure)
 14. [Reproducibility](#reproducibility)
-15. [Citation](#citation)
-16. [Contact](#contact)
+15. [Contact](#contact)
 
 ---
 
@@ -33,6 +32,29 @@ The study presents an NDT framework designed to emulate realistic network enviro
 Co-authors: **Amit Karamchandani, Alberto Mozo, Luis de la Cal** (Universidad Politécnica de Madrid); **Javier Nuñez, Yenny Moreno, Antonio Pastor** (Telefónica Innovación Digital).
 
 With special support from **Diego R. López** (Telefónica Innovación Digital).
+
+
+---
+
+## Citation
+
+"On the Applicability of Network Digital Twins in Generating Synthetic Data for Heavy Hitter Discrimination", published in IEEE Communications Magazine.
+
+📖 Official publication: [https://doi.org/10.1109/MCOM.003.2400648](https://doi.org/10.1109/MCOM.003.2400648)
+
+If you use the data or code from this repository, please cite the paper:
+
+```bibtex 
+@ARTICLE{11020584,
+  author={Karamchandani, Amit and Nunez, Javier and de-la-Cal, Luis and Moreno, Yenny and Mozo, Alberto and Pastor, Antonio},
+  journal={IEEE Communications Magazine}, 
+  title={On the Applicability of Network Digital Twins in Generating Synthetic Data for Heavy Hitter Discrimination}, 
+  year={2025},
+  pages={2-8},
+  keywords={Real-time systems;Labeling;Data models;Adaptation models;Training;Emulation;Data collection;Synthetic data;Prevention and mitigation;Accuracy},
+  doi={10.1109/MCOM.003.2400648}} 
+```
+
 
 ---
 
@@ -1096,26 +1118,6 @@ Ensure all components are correctly set up and configured as per the [Installati
 ### Datasets
 To facilitate reproducibility and support further research, several datasets generated from variations of the described NDT scenario, each specifically prepared for different experimental setups, are openly available at [Zenodo](https://zenodo.org/records/14134646). The dataset used in this study was obtained through post-processing code applied to these variations.
 
----
-
-## Citation
-
-"On the Applicability of Network Digital Twins in Generating Synthetic Data for Heavy Hitter Discrimination", published in IEEE Communications Magazine.
-
-📖 Official publication: [https://doi.org/10.1109/MCOM.003.2400648](https://doi.org/10.1109/MCOM.003.2400648)
-
-If you use the data or code from this repository, please cite the paper:
-
-```bibtex 
-@ARTICLE{11020584,
-  author={Karamchandani, Amit and Nunez, Javier and de-la-Cal, Luis and Moreno, Yenny and Mozo, Alberto and Pastor, Antonio},
-  journal={IEEE Communications Magazine}, 
-  title={On the Applicability of Network Digital Twins in Generating Synthetic Data for Heavy Hitter Discrimination}, 
-  year={2025},
-  pages={2-8},
-  keywords={Real-time systems;Labeling;Data models;Adaptation models;Training;Emulation;Data collection;Synthetic data;Prevention and mitigation;Accuracy},
-  doi={10.1109/MCOM.003.2400648}} 
-```
 
 ---
 
