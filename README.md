@@ -26,7 +26,7 @@
 
 ## Abstract
 
-This repository accompanies the paper titled "**On the Applicability of Network Digital Twins in Generating Synthetic Data for Heavy Hitter Discrimination**," which is currently under review on a peer-reviewed journal.
+This repository accompanies the paper titled "**On the Applicability of Network Digital Twins in Generating Synthetic Data for Heavy Hitter Discrimination**", published in IEEE Communications Magazine ([https://doi.org/10.1109/MCOM.003.2400648](https://doi.org/10.1109/MCOM.003.2400648)). If you use the data or code from this repository in your research, please cite this paper.
 
 The study presents an NDT framework designed to emulate realistic network environments for generating labeled synthetic traffic data for developing machine learning models. The framework is validated through a novel use case involving heavy hitter discrimination, both benign and malicious (e.g., DDoS attacks). The framework leverages orchestration technologies and automated deployment workflows to ensure reproducibility, extensibility and scalability to facilitate network security research and experimentation.
 
@@ -1100,7 +1100,22 @@ To facilitate reproducibility and support further research, several datasets gen
 
 ## Citation
 
-_This article is currently under review._
+"On the Applicability of Network Digital Twins in Generating Synthetic Data for Heavy Hitter Discrimination", published in IEEE Communications Magazine.
+
+📖 Official publication: [https://doi.org/10.1109/MCOM.003.2400648](https://doi.org/10.1109/MCOM.003.2400648)
+
+If you use the data or code from this repository, please cite the paper:
+
+```bibtex 
+@ARTICLE{11020584,
+  author={Karamchandani, Amit and Nunez, Javier and de-la-Cal, Luis and Moreno, Yenny and Mozo, Alberto and Pastor, Antonio},
+  journal={IEEE Communications Magazine}, 
+  title={On the Applicability of Network Digital Twins in Generating Synthetic Data for Heavy Hitter Discrimination}, 
+  year={2025},
+  pages={2-8},
+  keywords={Real-time systems;Labeling;Data models;Adaptation models;Training;Emulation;Data collection;Synthetic data;Prevention and mitigation;Accuracy},
+  doi={10.1109/MCOM.003.2400648}} 
+```
 
 ---
 
